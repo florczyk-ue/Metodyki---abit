@@ -42,7 +42,7 @@ label_DG.grid(row=5, column=1, padx=10, pady=5)
 label_EX = tk.Label(root, text="Doświadczenie wolontariackie")
 label_EX.grid(row=6, column=0, padx=10, pady=5, sticky="w")
 label_EX = tk.Entry(root, width=40)
-label_EX.grid(row=6, column=1, padx=10, pady=5)
+label_EX.grid(row=7, column=1, padx=10, pady=5)
 
 # Przycisk zapisu
 
