@@ -31,6 +31,19 @@ label_bdate = tk.Label(root, text="Data urodzenia")
 label_bdate.grid(row=6, column=0, padx=10, pady=5, sticky="w")
 entry_bdate = tk.Entry(root, width=40)
 entry_bdate.grid(row=6, column=1, padx=10, pady=5)
+label_ID = tk.Label(root, text="PESEL")
+label_ID.grid(row=4, column=0, padx=10, pady=5, sticky="w")
+label_ID = tk.Entry(root, width=40)
+label_ID.grid(row=4, column=1, padx=10, pady=5)
+label_DG = tk.Label(root, text="Wykształcenie")
+label_DG.grid(row=5, column=0, padx=10, pady=5, sticky="w")
+label_DG = tk.Entry(root, width=40)
+label_DG.grid(row=5, column=1, padx=10, pady=5)
+label_EX = tk.Label(root, text="Doświadczenie wolontariackie")
+label_EX.grid(row=6, column=0, padx=10, pady=5, sticky="w")
+label_EX = tk.Entry(root, width=40)
+label_EX.grid(row=6, column=1, padx=10, pady=5)
+
 # Przycisk zapisu
 
 
